@@ -38,8 +38,20 @@ npm run typecheck
 | Путь | Страница |
 | --- | --- |
 | `/` | Витрина: hero, тикер, каталог, поиск, фильтры |
-| `/product/:id` | Карточка товара и похожие предметы |
+| `/collections` | Категории каталога |
+| `/collections/:slug` | Предметы выбранной категории |
+| `/sale` | Распродажа с таймером до следующего дропа |
+| `/blog` | Журнал: список статей |
+| `/blog/:slug` | Полная статья с подборкой предметов |
+| `/product/:id` | Карточка товара, отзывы и похожие предметы |
 | `/cart` | Полная корзина со сводкой заказа |
+| `/wishlist` | Избранное |
+| `/compare` | Сравнение предметов |
+| `/profile` | Локальный профиль игрока |
+| `/orders` | История заказов |
+| `/support` | Поддержка и форма обращения |
+| `/faq` | Частые вопросы |
+| `/about` | О проекте |
 | `*` | Страница 404 |
 
 ## Каталог и API
@@ -70,7 +82,7 @@ src/
   components/   # UI: шапка, подвал, карточки, корзина, toast, иконки
   data/         # демо-коллекция
   lib/          # API, форматирование цен, расчёты корзины
-  pages/        # Shop, Product, Cart, NotFound
+  pages/        # Shop, Collections, Sale, Blog, Product, Cart, Wishlist, Compare, Profile, Orders, Support, Faq, About, NotFound
   store/        # reducer и ShopProvider
   App.tsx       # декларативные маршруты
   main.tsx      # BrowserRouter + провайдер
