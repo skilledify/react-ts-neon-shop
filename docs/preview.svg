@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-label="Превью интерфейса Neon Shop">
+  <defs>
+    <linearGradient id="page" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08040f"/>
+      <stop offset="1" stop-color="#120826"/>
+    </linearGradient>
+
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a78bfa"/>
+      <stop offset="0.5" stop-color="#f472b6"/>
+      <stop offset="1" stop-color="#fbbf24"/>
+    </linearGradient>
+
+    <linearGradient id="btn" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset="0.55" stop-color="#ec4899"/>
+      <stop offset="1" stop-color="#fbbf24"/>
+    </linearGradient>
+
+    <radialGradient id="auroraA">
+      <stop offset="0" stop-color="#a855f7" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="auroraB">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="auroraC">
+      <stop offset="0" stop-color="#f472b6" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#f472b6" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="30"/>
+    </filter>
+
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.04"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="760" fill="#05020b"/>
+
+  <!-- Browser chrome -->
+  <rect x="24" y="24" width="1152" height="712" rx="22" fill="url(#page)" stroke="#ffffff" stroke-opacity="0.12"/>
+  <rect x="24" y="24" width="1152" height="46" rx="22" fill="#0d071b"/>
+  <rect x="24" y="52" width="1152" height="18" fill="#0d071b"/>
+
+  <circle cx="52" cy="47" r="5" fill="#f87171"/>
+  <circle cx="70" cy="47" r="5" fill="#fbbf24"/>
+  <circle cx="88" cy="47" r="5" fill="#34d399"/>
+
+  <rect x="112" y="36" width="420" height="22" rx="11" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.08"/>
+  <text x="126" y="51" font-family="Inter, -apple-system, Segoe UI, Roboto, sans-serif" font-size="11" fill="#71717a">skilledify.github.io/react-ts-neon-shop</text>
+
+  <rect x="24" y="70" width="1152" height="666" fill="url(#grid)" opacity="0.7"/>
+  <circle cx="300" cy="150" r="260" fill="url(#auroraA)" filter="url(#blur)"/>
+  <circle cx="1080" cy="620" r="220" fill="url(#auroraB)" filter="url(#blur)"/>
+  <circle cx="880" cy="160" r="180" fill="url(#auroraC)" filter="url(#blur)"/>
+
+  <!-- App header -->
+  <g>
+    <rect x="60" y="94" width="34" height="34" rx="11" fill="url(#btn)"/>
+    <path d="M80 101 L70 114 H76 L73 122 L83 108 H77 Z" fill="#08040f"/>
+    <text x="104" y="117" font-family="Inter, -apple-system, Segoe UI, Roboto, sans-serif" font-size="18" font-weight="800" fill="#fafafa">Neon<tspan fill="#f472b6">Shop</tspan></text>
+
+    <g font-family="Inter, -apple-system, Segoe UI, Roboto, sans-serif" font-size="12" font-weight="600">
+      <text x="240" y="116" fill="#f4f4f5">Витрина</text>
+      <text x="306" y="116" fill="#71717a">Коллекции</text>
+      <text x="392" y="116" fill="#71717a">Распродажа</text>
+      <text x="486" y="116" fill="#71717a">Блог</text>
+      <text x="534" y="116" fill="#71717a">О нас</text>
+    </g>
+
+    <rect x="920" y="94" width="86" height="34" rx="10" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.1"/>
+    <text x="938" y="116" font-family="Inter, -apple-system, Segoe UI, Roboto, sans-serif" font-size="11" fill="#a1a1aa">Поиск ⌘K</text>
+
+    <rect x="1018" y="94" width="110" height="34" rx="10" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.1"/>
+    <text x="1036" y="116" font-family="Inter, -apple-system, Segoe UI, Roboto, sans-serif" font-size="11" font-weight="700" fill="#fafafa">Корзина</text>
+    <circle cx="1112" cy="102" r="8" fill="#f472b6"/>
+    <text x="1112" y="106" text-anchor="middle" font-family="Inter, -apple-system, Segoe UI, Roboto, sans-serif" font-size="9" font-weight="800" fill="#08040f">3</text>
+  </g>
+
+  <line x1="24" y1="158" x2="1176" y2="158" stroke="#ffffff" stroke-opacity="0.08"/>
+
+  <!-- Hero copy -->
+  <g font-family="Inter, -apple-system, Segoe UI, Roboto, sans-serif">
+    <rect x="62" y="194" width="214" height="28" rx="14" fill="#f472b6" fill-opacity="0.1" stroke="#f472b6" stroke-opacity="0.3"/>
+    <circle cx="78" cy="208" r="3.5" fill="#f472b6"/>
+    <text x="90" y="213" font-size="10" font-weight="700" letter-spacing="1.8" fill="#f9a8d4">НОВАЯ КОЛЛЕКЦИЯ · 06</text>
+
+    <text x="60" y="288" font-size="52" font-weight="800" letter-spacing="-1.5" fill="#fafafa">Цифровые вещи,</text>
+    <text x="60" y="344" font-size="52" font-weight="800" letter-spacing="-1.5" fill="#fafafa">которые <tspan fill="url(#neon)">светятся</tspan>.</text>
+
+    <rect x="60" y="380" width="430" height="9" rx="4.5" fill="#ffffff" fill-opacity="0.16"/>
+    <rect x="60" y="398" width="360" height="9" rx="4.5" fill="#ffffff" fill-opacity="0.1"/>
+
+    <rect x="60" y="438" width="212" height="46" rx="13" fill="url(#btn)"/>
+    <text x="92" y="466" font-size="13" font-weight="800" fill="#08040f">Смотреть коллекцию →</text>
+
+    <rect x="284" y="438" width="154" height="46" rx="13" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.14"/>
+    <text x="310" y="466" font-size="13" font-weight="700" fill="#e4e4e7">Моя корзина →</text>
+
+    <g>
+      <rect x="60" y="516" width="118" height="66" rx="14" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-opacity="0.1"/>
+      <text x="76" y="546" font-size="20" font-weight="800" fill="#fafafa">48+</text>
+      <text x="76" y="566" font-size="8" font-weight="700" letter-spacing="1.4" fill="#71717a">ПРЕДМЕТОВ</text>
+
+      <rect x="186" y="516" width="118" height="66" rx="14" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-opacity="0.1"/>
+      <text x="202" y="546" font-size="20" font-weight="800" fill="#fafafa">24/7</text>
+      <text x="202" y="566" font-size="8" font-weight="700" letter-spacing="1.4" fill="#71717a">ПОДДЕРЖКА</text>
+
+      <rect x="312" y="516" width="118" height="66" rx="14" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-opacity="0.1"/>
+      <text x="328" y="546" font-size="20" font-weight="800" fill="#fafafa">4.9</text>
+      <text x="328" y="566" font-size="8" font-weight="700" letter-spacing="1.4" fill="#71717a">РЕЙТИНГ</text>
+    </g>
+  </g>
+
+  <!-- Hero showcase -->
+  <g>
+    <circle cx="890" cy="360" r="150" fill="none" stroke="#ffffff" stroke-opacity="0.1"/>
+    <circle cx="890" cy="360" r="112" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-dasharray="5 7"/>
+
+    <g transform="translate(700 258) rotate(-8)">
+      <rect width="150" height="196" rx="22" fill="#0b0619" stroke="#ffffff" stroke-opacity="0.16"/>
+      <rect x="10" y="10" width="130" height="130" rx="16" fill="#8b5cf6" fill-opacity="0.22"/>
+      <text x="75" y="100" text-anchor="middle" font-size="58">🥷</text>
+      <rect x="18" y="152" width="80" height="9" rx="4.5" fill="#ffffff" fill-opacity="0.55"/>
+      <rect x="18" y="169" width="52" height="8" rx="4" fill="#f472b6" fill-opacity="0.85"/>
+    </g>
+
+    <g transform="translate(936 196) rotate(7)">
+      <rect width="160" height="206" rx="22" fill="#0b0619" stroke="#ffffff" stroke-opacity="0.16"/>
+      <rect x="10" y="10" width="140" height="140" rx="16" fill="#22d3ee" fill-opacity="0.18"/>
+      <text x="80" y="106" text-anchor="middle" font-size="60">⚔️</text>
+      <rect x="18" y="162" width="86" height="9" rx="4.5" fill="#ffffff" fill-opacity="0.55"/>
+      <rect x="18" y="179" width="56" height="8" rx="4" fill="#22d3ee" fill-opacity="0.85"/>
+    </g>
+
+    <g transform="translate(812 430) rotate(4)">
+      <rect width="150" height="190" rx="22" fill="#0b0619" stroke="#ffffff" stroke-opacity="0.16"/>
+      <rect x="10" y="10" width="130" height="124" rx="16" fill="#fbbf24" fill-opacity="0.16"/>
+      <text x="75" y="96" text-anchor="middle" font-size="56">🕺</text>
+      <rect x="18" y="148" width="80" height="9" rx="4.5" fill="#ffffff" fill-opacity="0.55"/>
+      <rect x="18" y="165" width="52" height="8" rx="4" fill="#fbbf24" fill-opacity="0.85"/>
+    </g>
+  </g>
+
+  <!-- Floating rating chip -->
+  <rect x="662" y="180" width="132" height="46" rx="14" fill="#0b0619" fill-opacity="0.86" stroke="#ffffff" stroke-opacity="0.14"/>
+  <text x="678" y="200" font-family="Inter, -apple-system, Segoe UI, Roboto, sans-serif" font-size="12" font-weight="800" fill="#fbbf24">★ 4.9 / 5</text>
+  <text x="678" y="216" font-family="Inter, -apple-system, Segoe UI, Roboto, sans-serif" font-size="8" font-weight="700" letter-spacing="1.2" fill="#71717a">2 000+ ОТЗЫВОВ</text>
+
+  <line x1="24" y1="618" x2="1176" y2="618" stroke="#ffffff" stroke-opacity="0.08"/>
+
+  <!-- Recent drops row -->
+  <g font-family="Inter, -apple-system, Segoe UI, Roboto, sans-serif">
+    <text x="62" y="658" font-size="10" font-weight="700" letter-spacing="2" fill="#f472b6">КАТАЛОГ</text>
+    <text x="62" y="692" font-size="22" font-weight="800" fill="#fafafa">Выбери свой стиль</text>
+    <text x="1114" y="688" text-anchor="end" font-size="11" fill="#71717a">Смотреть все →</text>
+  </g>
+
+  <g>
+    <rect x="60" y="708" width="108" height="54" rx="14" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-opacity="0.1"/>
+    <text x="78" y="742" font-size="24">🦊</text>
+    <rect x="112" y="722" width="44" height="7" rx="3.5" fill="#ffffff" fill-opacity="0.45"/>
+    <rect x="112" y="736" width="30" height="6" rx="3" fill="#f472b6" fill-opacity="0.8"/>
+
+    <rect x="180" y="708" width="108" height="54" rx="14" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-opacity="0.1"/>
+    <text x="198" y="742" font-size="24">🚀</text>
+    <rect x="232" y="722" width="44" height="7" rx="3.5" fill="#ffffff" fill-opacity="0.45"/>
+    <rect x="232" y="736" width="30" height="6" rx="3" fill="#22d3ee" fill-opacity="0.8"/>
+
+    <rect x="300" y="708" width="108" height="54" rx="14" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-opacity="0.1"/>
+    <text x="318" y="742" font-size="24">🎒</text>
+    <rect x="352" y="722" width="44" height="7" rx="3.5" fill="#ffffff" fill-opacity="0.45"/>
+    <rect x="352" y="736" width="30" height="6" rx="3" fill="#fbbf24" fill-opacity="0.8"/>
+
+    <rect x="420" y="708" width="108" height="54" rx="14" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-opacity="0.1"/>
+    <text x="438" y="742" font-size="24">💎</text>
+    <rect x="472" y="722" width="44" height="7" rx="3.5" fill="#ffffff" fill-opacity="0.45"/>
+    <rect x="472" y="736" width="30" height="6" rx="3" fill="#a78bfa" fill-opacity="0.8"/>
+  </g>
+</svg>

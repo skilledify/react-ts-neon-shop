@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-label="Neon Shop — цифровые предметы, которые светятся">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07030f"/>
+      <stop offset="0.55" stop-color="#100722"/>
+      <stop offset="1" stop-color="#170a2e"/>
+    </linearGradient>
+
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a78bfa"/>
+      <stop offset="0.45" stop-color="#f472b6"/>
+      <stop offset="1" stop-color="#fbbf24"/>
+    </linearGradient>
+
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset="0.5" stop-color="#ec4899"/>
+      <stop offset="1" stop-color="#fbbf24"/>
+    </linearGradient>
+
+    <radialGradient id="glowA">
+      <stop offset="0" stop-color="#a855f7" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glowB">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glowC">
+      <stop offset="0" stop-color="#f472b6" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#f472b6" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+
+    <filter id="textGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="340" rx="28" fill="url(#bg)"/>
+  <rect width="1280" height="340" rx="28" fill="url(#grid)"/>
+
+  <circle cx="210" cy="40" r="240" fill="url(#glowA)" filter="url(#soft)"/>
+  <circle cx="1140" cy="300" r="220" fill="url(#glowB)" filter="url(#soft)"/>
+  <circle cx="1010" cy="40" r="160" fill="url(#glowC)" filter="url(#soft)"/>
+
+  <rect x="1.5" y="1.5" width="1277" height="337" rx="26.5" fill="none" stroke="#ffffff" stroke-opacity="0.12"/>
+
+  <g>
+    <rect x="88" y="72" width="382" height="34" rx="17" fill="#f472b6" fill-opacity="0.1" stroke="#f472b6" stroke-opacity="0.35"/>
+    <circle cx="108" cy="89" r="4" fill="#f472b6"/>
+    <text x="122" y="95" font-family="Inter, -apple-system, Segoe UI, Roboto, sans-serif" font-size="12" font-weight="700" letter-spacing="2.6" fill="#f9a8d4">NEON COLLECTION · SEASON 06</text>
+  </g>
+
+  <text x="86" y="196" font-family="Inter, -apple-system, Segoe UI, Roboto, sans-serif" font-size="86" font-weight="800" letter-spacing="-2" fill="url(#neon)" filter="url(#textGlow)">NeonShop</text>
+
+  <text x="90" y="240" font-family="Inter, -apple-system, Segoe UI, Roboto, sans-serif" font-size="23" fill="#c4b5fd" fill-opacity="0.92">Цифровые предметы, которые светятся.</text>
+
+  <g font-family="Inter, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="600">
+    <rect x="90" y="270" width="82" height="30" rx="15" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.14"/>
+    <text x="104" y="289" fill="#e4e4e7">Skins</text>
+
+    <rect x="180" y="270" width="78" height="30" rx="15" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.14"/>
+    <text x="194" y="289" fill="#e4e4e7">Emotes</text>
+
+    <rect x="266" y="270" width="86" height="30" rx="15" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.14"/>
+    <text x="280" y="289" fill="#e4e4e7">Gliders</text>
+
+    <rect x="360" y="270" width="112" height="30" rx="15" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.14"/>
+    <text x="374" y="289" fill="#e4e4e7">Backpacks</text>
+  </g>
+
+  <g transform="translate(982 170)">
+    <circle r="118" fill="none" stroke="url(#ring)" stroke-opacity="0.32" stroke-width="1.5"/>
+    <circle r="90" fill="none" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1.5" stroke-dasharray="6 8"/>
+    <circle r="64" fill="#8b5cf6" fill-opacity="0.14" stroke="#a78bfa" stroke-opacity="0.35" stroke-width="1.5"/>
+    <path d="M12 -46 L-26 8 H-2 L-14 48 L28 -10 H2 Z" fill="url(#neon)" filter="url(#textGlow)"/>
+
+    <g transform="translate(-150 -96) rotate(-10)">
+      <rect width="86" height="104" rx="16" fill="#0b0619" stroke="#ffffff" stroke-opacity="0.16"/>
+      <rect x="7" y="7" width="72" height="66" rx="11" fill="#8b5cf6" fill-opacity="0.22"/>
+      <text x="43" y="54" text-anchor="middle" font-size="34">🥷</text>
+      <rect x="14" y="82" width="42" height="6" rx="3" fill="#ffffff" fill-opacity="0.5"/>
+      <rect x="14" y="92" width="26" height="5" rx="2.5" fill="#f472b6" fill-opacity="0.8"/>
+    </g>
+
+    <g transform="translate(92 28) rotate(9)">
+      <rect width="86" height="104" rx="16" fill="#0b0619" stroke="#ffffff" stroke-opacity="0.16"/>
+      <rect x="7" y="7" width="72" height="66" rx="11" fill="#22d3ee" fill-opacity="0.18"/>
+      <text x="43" y="54" text-anchor="middle" font-size="34">⚔️</text>
+      <rect x="14" y="82" width="42" height="6" rx="3" fill="#ffffff" fill-opacity="0.5"/>
+      <rect x="14" y="92" width="26" height="5" rx="2.5" fill="#22d3ee" fill-opacity="0.8"/>
+    </g>
+
+    <g transform="translate(-44 84) rotate(4)">
+      <rect width="86" height="104" rx="16" fill="#0b0619" stroke="#ffffff" stroke-opacity="0.16"/>
+      <rect x="7" y="7" width="72" height="66" rx="11" fill="#fbbf24" fill-opacity="0.18"/>
+      <text x="43" y="54" text-anchor="middle" font-size="34">🕺</text>
+      <rect x="14" y="82" width="42" height="6" rx="3" fill="#ffffff" fill-opacity="0.5"/>
+      <rect x="14" y="92" width="26" height="5" rx="2.5" fill="#fbbf24" fill-opacity="0.8"/>
+    </g>
+  </g>
+</svg>
