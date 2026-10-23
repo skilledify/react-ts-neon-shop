@@ -88,7 +88,8 @@ export function ComparePage() {
                 icon={<CompareIcon className="h-4 w-4" />}
                 title={
                     <>
-                        Сравнение<span className="text-gradient">предметов</span>
+                        Сравнение{' '}
+                        <span className="text-gradient">предметов</span>
                     </>
                 }
                 description={
