@@ -33,6 +33,25 @@ npm run preview
 npm run typecheck
 ```
 
+## Деплой на GitHub Pages
+
+Проект собирается и публикуется автоматически через GitHub Actions
+(`.github/workflows/deploy.yml`) при пуше в `main` или вручную из вкладки
+Actions.
+
+- Прод-адрес: **https://skilledify.github.io/react-ts-neon-shop/**
+- В прод-сборке Vite использует `base: '/react-ts-neon-shop/'`, а роутер —
+  соответствующий `basename`.
+- GitHub Pages не поддерживает SPA-fallback, поэтому workflow копирует
+  `dist/index.html` в `dist/404.html`: глубокие ссылки (`/blog/:slug`,
+  `/product/:id`) открываются корректно.
+
+Первичная настройка репозитория (один раз):
+
+1. В **Settings → Pages → Build and deployment** выберите источник
+   **GitHub Actions**.
+2. Запушьте в `main` — деплой запустится сам.
+
 ## Маршруты
 
 | Путь | Страница |

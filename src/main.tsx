@@ -11,9 +11,12 @@ if (!root) {
     throw new Error('Не найден корневой элемент #root');
 }
 
+// Vite отдаёт BASE_URL с завершающим слешем, роутеру он не нужен.
+const basename = import.meta.env.BASE_URL.replace(/\/$/, '') || '/';
+
 createRoot(root).render(
     <StrictMode>
-        <BrowserRouter>
+        <BrowserRouter basename={basename}>
             <ShopProvider>
                 <App />
             </ShopProvider>
